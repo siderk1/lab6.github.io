@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: seagreen;
+    display: flex;
+}
+#root, #playArea{
+    flex: 1;
+    height: 100%;
+}
+#playArea{
+    border-radius: 15px;
+}
+.deck{
+    width: 100%;
+}
+.deck__row{
+    display: flex;
+}
+.deck__card{
+    flex: 1;
+}
+.deck__img{
+    width: 90%;
+}
+.bot__card{
+    width: 100px;
+}
+.card{
+    width: 100%;
+}
+.bot__cards{
+    display: flex;
+    justify-content: center;
+}
+.play__container{
+    background-color: rgba(255,255,255,0.2);
+    width: 100%;
+    hight: 100%;
+}
