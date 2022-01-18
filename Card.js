@@ -8,12 +8,12 @@ export default class Card {
 
     getImagePath() {
         if(this.isEmpty) {
-            return '/img/empty.jpg';
+            return '/lab6.github.io/img/empty.jpg';
         }
         if(this.isReavealed) {
-            return '/img/cards/' + this.rank + '_of_' + this.suit + '.png';
+            return '/lab6.github.io/img/cards/' + this.rank + '_of_' + this.suit + '.png';
         } else {
-            return '/img/back-side.png';
+            return '/lab6.github.io/img/back-side.png';
         }
     }
 }
